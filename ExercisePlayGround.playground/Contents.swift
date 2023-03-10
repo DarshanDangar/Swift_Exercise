@@ -237,7 +237,56 @@ for i in 1...n1{
     print("")
 }
 
+//4
 
+var n2 = 4
+for i in 1...n2{
+    for _ in 0...(n2-i){
+        print(" ",terminator: " ")
+    }
+    for _ in 1...(i*2)-1{
+        print("#",terminator: "")
+    }
+    print("")
+}
+        
+//5
+
+var number = 17
+
+if number == 0 || number == 1{
+    print("\(number) is not prime number")
+}
+for _ in 2..<number{
+    if number % 2 == 0{
+        print("\(number) is not prime number")
+        break
+    }else if number % 3 == 0{
+        print("\(number) is not prime number")
+        break
+    }else if number % 4 == 0{
+        print("\(number) is not prime number")
+        break
+    }else if number % 5 == 0{
+        print("\(number) is not prime number")
+        break
+    }else if number % 6 == 0{
+        print("\(number) is not prime number")
+        break
+    }else if number % 7 == 0{
+        print("\(number) is not prime number")
+        break
+    }else if number % 8 == 0{
+        print("\(number) is not prime number")
+        break
+    }else if number % 9 == 0{
+        print("\(number) is not prime number")
+        break
+    }else{
+        print("\(number) is prime number")
+        break
+    }
+}
         
 
 
