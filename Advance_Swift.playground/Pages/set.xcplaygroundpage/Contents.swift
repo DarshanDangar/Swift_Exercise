@@ -119,3 +119,7 @@ sdf.min()
 sdf.shuffled()
 sdf.contains(5)
 sdf.update(with: 1)
+
+
+var array = [1,2,3,878,8]
+
